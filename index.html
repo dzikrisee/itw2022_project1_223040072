@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio DzikrI</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/06244ba418.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="img/dzikrise3.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Student</p>
+          <h1>
+            Hi, im <span>Dzikri</span><br />
+            Setiawan From Bandung
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/profil.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hai, perkenalkan nama saya Dzikri Setiawan, atau biasa di panggil dzikri. Saya merupakan seorang mahasiswa di Perguruan tinggi yang ada di Bandung, tepatnya di Universitas Pasundan. Saya mahasiswa Fakultas Teknik, prodi Teknik
+              Informatika, sekarang saya mahasiswa semester 1. Usia saya saat ini 20 Tahun.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML</span><br />70%</li>
+                <li><span>CSS</span><br />50%</li>
+                <li><span>Java Script</span><br />30%</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022</span><br />Marathon 15K, ITENAS</li>
+                <li><span>2022</span><br />Marathon 10K, PUSSENIF TNI-AD</li>
+                <li><span>2019</span><br />Ketua Organisasi Karang Taruna</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div id="education">
+      <div class="container">
+        <h1 class="sub-title">Education</h1>
+        <div class="education-list">
+          <div>
+            <img src="img/school/logo2.png" alt="" />
+            <h2>Universitas Pasundan</h2>
+            <p>2022 - Sekarang</p>
+            <a href="https://www.unpas.ac.id/" target="_blank">Learn more</a>
+          </div>
+          <div>
+            <img src="img/school/logo1.png" alt="" />
+            <h2>SMAN 14 Bandung</h2>
+            <p>2017 - 2020</p>
+            <a href="https://id.wikipedia.org/wiki/SMA_Negeri_14_Bandung" target="_blank">Learn more</a>
+          </div>
+          <div>
+            <img src="img/school/logo3.png" alt="" />
+            <h2>SMPN 1 RANCAEKEK</h2>
+            <p>2014 - 2017</p>
+            <a href="https://smpn1rancaekek.sch.id/" target="_blank">Learn more</a>
+          </div>
+          <div>
+            <img src="img/school/logo4.png" alt="" />
+            <h2>SDN Bojongloa 3</h2>
+            <p>2008 - 2014</p>
+            <a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/308f0410-2cf5-e011-82af-2323fba18184" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Education -->
+
+    <!-- Gallery -->
+    <div id="gallery">
+      <div class="container">
+        <h1 class="sub-title">Gallery</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/gallery/gallery1.jpg" />
+            <div class="layer">
+              <h3>Gallery 1</h3>
+              <p>Kegiatan setelah melaksanakan perkuliahan dan menggunakan dresscode batik</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/gallery/gallery3.jpg" />
+            <div class="layer">
+              <h3>Gallery 2</h3>
+              <p>Kegiatan foto bersama rekan prodi angkatan 2022</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/gallery/gallery4.jpg" />
+            <div class="layer">
+              <h3>Gallery 3</h3>
+              <p>First meet prodi sebelum melaksanakan kegiatan PKKMB</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/gallery/gallery5.jpg" />
+            <div class="layer">
+              <h3>Gallery 4</h3>
+              <p>Hangout bersama</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- Akhir Gallery -->
+
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i>081223093242</p>
+            <div class="social-icons">
+              <a href="https://wa.me/6281223093242" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://www.instagram.com/dzikrisee" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.twitter.com/dzikriseee" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="img/bg.jpg" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="Submit-From-to-Google-Sheets">
+              <input type="text" name="nama" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <textarea name="pesan" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy;Dzikri Setiawan 2022. Made with by</p>
+      </div>
+    </div>
+    <!-- akhir contact -->
+
+    <!-- script js -->
+    <script src="js/script.js"></script>
+
+    <!-- Scripct Speedsheets -->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzh6cdHj6vdw2J2RKkRMzPp__gmMCxs-ylV_KJI1eq3u8T911YWDoMjVMykaAxa_rAi/exec';
+      const form = document.forms['Submit-From-to-Google-Sheets'];
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => console.log('Success!', response))
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+    <!-- Akhir Script SpeedSheets -->
+  </body>
+</html>
