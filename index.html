@@ -151,7 +151,7 @@
             </div>
           </div>
         </div>
-        <a href="#" class="btn">See more</a>
+        <a href="#gallery" class="btn">See more</a>
       </div>
     </div>
     <!-- Akhir Gallery -->
@@ -176,7 +176,7 @@
               <input type="text" name="nama" placeholder="Your Name" required />
               <input type="email" name="email" placeholder="Your Email" required />
               <textarea name="pesan" rows="6" placeholder="Your Message"></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
+              <button type="submit" class="btn btn2">Kirim</button>
             </form>
           </div>
         </div>
@@ -190,19 +190,5 @@
     <!-- Script JS -->
     <script src="js/script.js"></script>
     <!-- Akhir Script  JS -->
-
-    <!-- Scripct Speedsheets -->
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbzh6cdHj6vdw2J2RKkRMzPp__gmMCxs-ylV_KJI1eq3u8T911YWDoMjVMykaAxa_rAi/exec';
-      const form = document.forms['Submit-From-to-Google-Sheets'];
-
-      form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-          .then((response) => console.log('Success!', response))
-          .catch((error) => console.error('Error!', error.message));
-      });
-    </script>
-    <!-- Akhir Script SpeedSheets -->
   </body>
 </html>
